@@ -10,7 +10,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontWeight: 'bold',
-    textTransform: 'capitalize',
+    textTransform: 'uppercase',
     fontSize: 14,
     color: '#FFF',
     marginLeft: 24,

@@ -16,7 +16,10 @@
     "react": "18.0.0",
     "react-native": "0.69.6",
     "react-native-svg": "12.3.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "expo-camera": "~12.3.0",
+    "react-native-view-shot": "3.3.0",
+    "expo-sharing": "~10.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
