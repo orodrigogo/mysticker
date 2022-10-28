@@ -47,17 +47,18 @@ export function Home() {
                   ref={cameraRef}
                   style={styles.camera}
                   type={CameraType.front}
+                  ratio="1:1"
                 /> :
                 <Image
                   source={{ uri: photo ? photo : 'https://images.gutefrage.net/media/fragen/bilder/meine-kamera-auf-windows-10-funktioniert-nicht-was-tun/0_big.jpg?v=1584606917000' }}
-                  style={styles.camera}
+                  style={styles.preview}
                   onLoad={shareScreenShot}
                 />
             }
 
             <View style={styles.player}>
               <TextInput
-                placeholder="Digite seu nome aqui"
+                placeholder="Digite seu nome aqui... "
                 style={styles.name}
               />
             </View>

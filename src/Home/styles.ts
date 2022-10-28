@@ -17,7 +17,13 @@ export const styles = StyleSheet.create({
   },
   camera: {
     width: Dimensions.get("screen").width - 58,
-    height: 300
+    height: 300,
+  },
+  preview: {
+    width: Dimensions.get("screen").width - 58,
+    height: 300,
+    borderRadius: 10,
+    transform: [{ scaleX: -1 }]
   },
   player: {
     width: '100%',
@@ -30,7 +36,8 @@ export const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: '900',
     color: '#000',
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    textAlign: 'center'
   },
   sticker: {
     backgroundColor: '#373D98',
